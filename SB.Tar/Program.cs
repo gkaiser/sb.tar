@@ -6,7 +6,8 @@ namespace SB.Tar
 	{
 		static void Main(string[] args)
 		{
-			var tf = Lib.SbTarFile.FromFile(@"C:\Users\gkaiser\Downloads\testfile-nix-ustar.tar");
+			//var tf = Lib.SbTarFile.FromFile(@"C:\Users\gkaiser\Downloads\testfile-nix-ustar.tar");
+      var tf = Lib.SbTarFile.FromFile(@"/Users/gkaiser/src/csharp/sb.tar/samples/testfile-mac-ustar.tar");
 
 			foreach (var h in tf.Headers)
 			{
